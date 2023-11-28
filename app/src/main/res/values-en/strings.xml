@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">ASSIGNMENTS 3 and 5</string>
+    <string name="task_name_hint">Insert assignment title</string>
+    <string name="task_name_label">Name</string>
+    <string name="task_details_label">Details</string>
+    <string name="task_done_label">Finished</string>
+    <string name="task_add_new">New Assignment</string>
+    <string name="show_subtitle">Show subtitle</string>
+    <string name="hide_subtitle">Hide subtitle</string>
+    <string name="subtitle_format">%1$d assignments</string>
+</resources>
