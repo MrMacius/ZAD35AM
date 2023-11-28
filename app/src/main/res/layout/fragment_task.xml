@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<TextView
+    style="?android:listSeparatorTextViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:text="@string/task_name_label" />
+
+<EditText
+    style="@style/MyTextViewStyle"
+    android:id="@+id/task_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/task_name_hint"
+    android:textColor="@color/black"/>
+
+<TextView
+
+    style="?android:listSeparatorTextViewStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/task_details_label" />
+
+<EditText
+    style="@style/MyTextViewStyle"
+    android:id="@+id/task_date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:cursorVisible="false"
+    android:focusable="false"
+    android:textColor="@color/black"
+    android:focusableInTouchMode="false"
+    android:autofillHints=""
+    android:inputType="date"/>
+<Spinner
+
+    android:id="@+id/category_spinner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+<CheckBox
+    style="@style/MyTextViewStyle3"
+    android:id="@+id/task_done"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/task_done_label" />
+</LinearLayout>
